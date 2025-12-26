@@ -1,0 +1,16 @@
+﻿@model LibraryManagementSystem.Models.Book
+
+<h2>Yeni Kitap</h2>
+
+<form asp-action="Create">
+    <label>Başlık</label><br />
+    <input asp-for="Title" /><br />
+
+    <label>Yazar</label><br />
+    <input asp-for="Author" /><br />
+
+    <label>Basım Yılı</label><br />
+    <input asp-for="PublishYear" /><br /><br />
+
+    <button type="submit">Kaydet</button>
+</form>

@@ -1,0 +1,12 @@
+﻿@model LibraryManagementSystem.Models.Book
+
+<h2>Silme Onayı</h2>
+
+<p>@Model.Title kitabını silmek istiyor musun?</p>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Evet, Sil</button>
+</form>
+
+<a asp-action="Index">İptal</a>

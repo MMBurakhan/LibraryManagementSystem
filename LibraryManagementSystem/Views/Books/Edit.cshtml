@@ -1,0 +1,18 @@
+﻿@model LibraryManagementSystem.Models.Book
+
+<h2>Kitap Güncelle</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <label>Başlık</label><br />
+    <input asp-for="Title" /><br />
+
+    <label>Yazar</label><br />
+    <input asp-for="Author" /><br />
+
+    <label>Basım Yılı</label><br />
+    <input asp-for="PublishYear" /><br /><br />
+
+    <button type="submit">Güncelle</button>
+</form>
