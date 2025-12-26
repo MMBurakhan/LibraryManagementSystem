@@ -1,6 +1,6 @@
-ï»¿# Library Management System
+# Library Management System
 
-ASP.NET Core MVC kullanÄ±larak geliÅŸtirilmiÅŸ basit bir KÃ¼tÃ¼phane YÃ¶netim Sistemi.
+ASP.NET Core MVC kullanılarak geliştirilmiş basit bir Kütüphane Yönetim Sistemi.
 
 ## Live Demo
 https://librarymanagementsystem-rkr2.onrender.com/Books
@@ -8,9 +8,9 @@ https://librarymanagementsystem-rkr2.onrender.com/Books
 ## Features
 - Kitap listeleme
 - Kitap ekleme
-- Kitap gÃ¼ncelleme
+- Kitap güncelleme
 - Kitap silme
-- Detay gÃ¶rÃ¼ntÃ¼leme
+- Detay görüntüleme
 
 ## Technologies
 - ASP.NET Core MVC (.NET 8)
@@ -23,9 +23,9 @@ https://librarymanagementsystem-rkr2.onrender.com/Books
 ## Pages
 - /Books (Listeleme)
 - /Books/Create (Ekleme)
-- /Books/Edit/{id} (GÃ¼ncelleme)
+- /Books/Edit/{id} (Güncelleme)
 - /Books/Details/{id} (Detay)
 - /Books/Delete/{id} (Silme)
 
 ## Deployment
-Uygulama Docker kullanÄ±larak Render.com Ã¼zerinde canlÄ±ya alÄ±nmÄ±ÅŸtÄ±r.
+Uygulama Docker kullanılarak Render.com üzerinde canlıya alınmıştır.
