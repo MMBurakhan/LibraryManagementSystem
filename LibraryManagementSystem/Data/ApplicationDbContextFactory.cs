@@ -9,10 +9,7 @@ namespace LibraryManagementSystem.Data
         public ApplicationDbContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-
-            optionsBuilder.UseNpgsql(
-                "Server=(localdb)\\MSSQLLocalDB;Database=LibraryDb;Trusted_Connection=True;"
-            );
+            optionsBuilder.UseSqlite("Data Source=library.db");
 
             return new ApplicationDbContext(optionsBuilder.Options);
         }
